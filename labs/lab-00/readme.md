@@ -84,18 +84,18 @@ From time to time you may be asked to produce a graph as part of an assessment. 
 Create a simple graph showing a fake survey results on favorite icecream flavours using any spreadsheet program you wish
 
 If you are using excel to create the graph:
-	- save the graph as an image
-	- in github, click into the lab0.md file where you want graphic to go
-	- click on pencil icon at top
-	- position cursor to place where you want image to go
-	- drag and drop image into browser window that has the file opened for editing
-	- give it a few seconds and you should see some an image link text ```![](https://somegithubusercontenturl)```
-	- move that around if it isn't in the correct place
+- save the graph as an image
+- in github, click into the lab0.md file where you want graphic to go
+- click on pencil icon at top
+- position cursor to place where you want image to go
+- drag and drop image into browser window that has the file opened for editing
+- give it a few seconds and you should see some an image link text ```![](https://somegithubusercontenturl)```
+- move that around if it isn't in the correct place
 
 If you are using googlesheets
-	- get a shared (non-interactive) link.
-	- in your lab0.md file add an image link using the url you got from the graph created by google sheet
-	- alternatively get image and follow the same instructions as that for excel.
+- get a shared (non-interactive) link.
+- in your lab0.md file add an image link using the url you got from the graph created by google sheet
+- alternatively get image and follow the same instructions as that for excel.
 
 ## Reflection:
 
