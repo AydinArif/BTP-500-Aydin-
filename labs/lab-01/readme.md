@@ -64,19 +64,18 @@ Form a group 3-4 members.
   This function receives as parameter (assume valid) and returns the $n^{th}$ fibonacci number in the fibonacci sequence. The fibonacci sequence is defined as following:
 
   Let $F_i$ represent the $i^{th}$ fibonacci number in the sequence; then
-
-  - $F_0 = 0$
-  - $F_1 = 1$
-  - $F_2 = 1$
-  - $F_3 = 2$
-  - $F_4 = 3$
-  - $F_5 = 5$
-  - $F_6 = 8$
-  - $F_7 = 13$
-  - $F_8 = 21$
-  - $F_9 = 34$
-  ...
-  - $F_n = F_{n-1} + F_{n-2}$
+    - $F_0 = 0$
+    - $F_1 = 1$
+    - $F_2 = 1$
+    - $F_3 = 2$
+    - $F_4 = 3$
+    - $F_5 = 5$
+    - $F_6 = 8$
+    - $F_7 = 13$
+    - $F_8 = 21$
+    - $F_9 = 34$
+    ...
+    - $F_n = F_{n-1} + F_{n-2}$
 
 2. Estimate your own function's time complexity.  You do not need to do a full analysis but make a guess. Write your guess on the paper.
 
@@ -85,11 +84,11 @@ Form a group 3-4 members.
 4. Discuss your results in the group.
 
 5. Report your results in the file `lab1.md`:
-  - Did your teammate's analysis match what you thought your function's runtime was?
-  - Was there any version in the group that had a different complexity?  Which version looks like it would run the fastest?
-  - Rewrite the function in `lab1.md` file in your repository, what was your guess for complexity, and what was your teammates conclusion.  You can write exactly what you wrote on paper or you can alter it based on your discussions with your teammates.  If you made a change (outside of correcting syntax), why did you do it?
-  - Describe in English how would you test whether the complexity analysis was correct or not?
-  - Write the function in `fibonacci.py` and a small Python program in `fibonacci_tester.py` to test it and demonstrate that the function behaves correctly (use the `unittest` library); your tester should check the output for at least 5 different inputs. Look in *Lab #0* to see how to write a tester in Python.
+    - Did your teammate's analysis match what you thought your function's runtime was?
+    - Was there any version in the group that had a different complexity?  Which version looks like it would run the fastest?
+    - Rewrite the function in `lab1.md` file in your repository, what was your guess for complexity, and what was your teammates conclusion.  You can write exactly what you wrote on paper or you can alter it based on your discussions with your teammates.  If you made a change (outside of correcting syntax), why did you do it?
+    - Describe in English how would you test whether the complexity analysis was correct or not?
+    - Write the function in `fibonacci.py` and a small Python program in `fibonacci_tester.py` to test it and demonstrate that the function behaves correctly (use the `unittest` library); your tester should check the output for at least 5 different inputs. Look in *Lab #0* to see how to write a tester in Python.
 
 
 
