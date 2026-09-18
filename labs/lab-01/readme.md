@@ -47,11 +47,11 @@ Form a group 3-4 members.
 4. Discuss your results in the group.
 
 5. Report your results in the file `lab1.md`:
-  - Did your teammate's analysis match what you thought your function's runtime was?
-  - Was there any version in the group that had a different complexity?  Which version looks like it would run the fastest?
-  - Rewrite the function in `lab1.md` file in your repository, what was your guess for complexity, and what was your teammates conclusion.  You can write exactly what you wrote on paper or you can alter it based on your discussions with your teammates.  If you made a change (outside of correcting syntax), why did you do it?
-  - Describe in English how would you test whether the complexity analysis was correct or not?
-  - Write the function in `sum_to_goal.py` and a small Python program in `sum_to_goal_tester.py` to test it and demonstrate that the function behaves correctly (use the `unittest` library); your tester should check the output for at least 5 different inputs. Look in *Lab #0* to see how to write a tester in Python.
+    - Did your teammate's analysis match what you thought your function's runtime was?
+    - Was there any version in the group that had a different complexity?  Which version looks like it would run the fastest?
+    - Rewrite the function in `lab1.md` file in your repository, what was your guess for complexity, and what was your teammates conclusion.  You can write exactly what you wrote on paper or you can alter it based on your discussions with your teammates.  If you made a change (outside of correcting syntax), why did you do it?
+    - Describe in English how would you test whether the complexity analysis was correct or not?
+    - Write the function in `sum_to_goal.py` and a small Python program in `sum_to_goal_tester.py` to test it and demonstrate that the function behaves correctly (use the `unittest` library); your tester should check the output for at least 5 different inputs. Look in *Lab #0* to see how to write a tester in Python.
 
 ### `fibonacci` function
 
@@ -64,6 +64,7 @@ Form a group 3-4 members.
   This function receives as parameter (assume valid) and returns the $n^{th}$ fibonacci number in the fibonacci sequence. The fibonacci sequence is defined as following:
 
   Let $F_i$ represent the $i^{th}$ fibonacci number in the sequence; then
+
     - $F_0 = 0$
     - $F_1 = 1$
     - $F_2 = 1$
