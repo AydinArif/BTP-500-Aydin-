@@ -75,7 +75,7 @@ Form a group 3-4 members.
   - $F_7 = 13$
   - $F_8 = 21$
   - $F_9 = 34$
-  ...
+  - ...
   - $F_n = F_{n-1} + F_{n-2}$
 
 2. Estimate your own function's time complexity.  You do not need to do a full analysis but make a guess. Write your guess on the paper.
