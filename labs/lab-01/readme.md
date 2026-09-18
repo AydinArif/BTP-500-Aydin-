@@ -65,18 +65,18 @@ Form a group 3-4 members.
 
   Let $F_i$ represent the $i^{th}$ fibonacci number in the sequence; then
 
-    - $F_0 = 0$
-    - $F_1 = 1$
-    - $F_2 = 1$
-    - $F_3 = 2$
-    - $F_4 = 3$
-    - $F_5 = 5$
-    - $F_6 = 8$
-    - $F_7 = 13$
-    - $F_8 = 21$
-    - $F_9 = 34$
-    ...
-    - $F_n = F_{n-1} + F_{n-2}$
+  - $F_0 = 0$
+  - $F_1 = 1$
+  - $F_2 = 1$
+  - $F_3 = 2$
+  - $F_4 = 3$
+  - $F_5 = 5$
+  - $F_6 = 8$
+  - $F_7 = 13$
+  - $F_8 = 21$
+  - $F_9 = 34$
+  ...
+  - $F_n = F_{n-1} + F_{n-2}$
 
 2. Estimate your own function's time complexity.  You do not need to do a full analysis but make a guess. Write your guess on the paper.
 
