@@ -13,14 +13,21 @@ This lab is due at the end of the day that is before your next lab:
 - section `NBB`: Thursday, Oct 1 2026, @ 23:59
 
 
+
 ## Objectives
 
 - Learn how to do analysis.
 - Make connections between analytical run times and actual performance.
 
+
+
 ## Setup
 
-See Instructions in [lab #0](../lab-00/readme.md) to set up your repository.
+Set up your repository as instructed in [lab 0](lab-00.md).  In your repository, create a folder named `lab-1` and put there the the content of the folder `release` and update those files as instructed below.
+
+Unless otherwise stated, all writing goes into the file lab2.md
+
+
 
 ## Part A: Code and Discuss
 
