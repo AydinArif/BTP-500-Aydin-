@@ -25,7 +25,7 @@ This lab is due at the end of the day that is before your next lab:
 
 Set up your repository as instructed in [lab 0](lab-00.md).  In your repository, create a folder named `lab-1` and put there the the content of the folder `release` and update those files as instructed below.
 
-Unless otherwise stated, all writing goes into the file lab2.md
+Unless otherwise stated, all writing goes into the file `lab1.md`.
 
 
 
