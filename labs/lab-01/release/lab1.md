@@ -18,6 +18,7 @@ def sum_to_goal(numbers_list, goal):
 
 3. Yes, my friend's solution was similar to mine and the time complexity I calculated from his function was the same as mine which is O(n<sup>2</sup>)
 
-checking LaTex
+4. Discussed our results in a group
 
-$$E = mc^2$$
+5. Results
+- ll
