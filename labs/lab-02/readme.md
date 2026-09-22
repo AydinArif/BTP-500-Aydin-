@@ -24,7 +24,7 @@ This lab is due at the end of the day that is before your next lab:
 
 ## Setup
 
-Set up your repository as instructed in [lab 0](lab-00.md).  In your repository, create a folder named `lab-2` and put there the the content of the folder `release` and update those files as instructed below.
+Set up your repository as instructed in [lab 0](lab-00.md).  In your repository, create a folder named `lab-02` and put there the the content of the folder `release` and update those files as instructed below.
 
 Unless otherwise stated, all writing goes into the file `lab2.md`.
 
@@ -32,7 +32,9 @@ Unless otherwise stated, all writing goes into the file `lab2.md`.
 
 ## Part A: In-Class Discussion
 
-This part of the lab must be done in class.  Get together into a small group 2 to 3 students.  Write complete answers in the `lab2.md` in your repository.
+Students who are more than 15 minutes late at the lab, cannot get credit for this part (this part will be considered incomplete for them).
+
+This part of the lab must be done in class.  Get together into a small group 3 to 4 students.  Write your complete answers in the `lab2.md` in your repository.
 
 The following are 3 functions that will all return the same thing given the same parameters.  They are 3 very different approaches to exactly the same problem.
 
@@ -145,7 +147,7 @@ def binary_search(list, key)
 
 ## Submitting Your Lab
 
-Push an updated version of of the files found in the `release` and any other relevant files into the `lab-2` folder of your lab repository. Submit in BlackBoard the link to your repository.
+Push an updated version of of the files found in the `release` and any other relevant files into the `lab-02` folder of your lab repository. Submit in BlackBoard the link to your repository.
 
 
 

@@ -23,7 +23,7 @@ This lab is due at the end of the day that is before your next lab:
 
 ## Setup
 
-Set up your repository as instructed in [lab 0](lab-00.md).  In your repository, create a folder named `lab-1` and put there the the content of the folder `release` and update those files as instructed below.
+Set up your repository as instructed in [lab 0](lab-00.md).  In your repository, create a folder named `lab-01` and put there the the content of the folder `release` and update those files as instructed below.
 
 Unless otherwise stated, all writing goes into the file `lab1.md`.
 
@@ -155,15 +155,18 @@ def function3(list):
 
 In the `release` folder, you will find some empty files where you must write your solution.
 
-In order to get a mark for this lab, you must submit:
-
-- two discussion reports as required in part A, together with your implementations of the functions and their testers in Python.
-- a complete analysis of every function in part B.
-
 Place all your work for this lab into the folder `lab-01` in your GitHub repository, unless otherwise indicated. When you are happy with the state of your files, submit a link to your repo's `lab-01` folder into BlackBoard.
 
 
 ## Lab Rubric:
+
+- For part A to be completed, you must arrive in class within 15 minutes of the start of your lab period, participate in the class discussion, provide two discussion reports, together with your implementations of the functions and their testers in Python.
+- For part B to be completed, provide a complete analysis of every function:
+  - on each line of the code, identify how many operations are performed, what are those operations, if the line is part of a loop state how many times the loop is running.
+  - write your $T(n)$ by copying the number of operations from each line of code (identified above).
+  - simplify your $T(n)$.
+  - identify the dominant factor in the $T(n)$ formula.
+  - state the complexity using *Big-O* notation.
 
 | Criteria       | Poor - 0 mark                    | Fair - 1 marks                             | Good - 2 marks      |
 | -------------- | -------------------------------- | ------------------------------------------ | ------------------- |
