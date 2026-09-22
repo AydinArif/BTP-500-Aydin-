@@ -159,6 +159,6 @@ Push an updated version of of the files found in the `release` and any other rel
   - state the complexity using *Big-O* notation.
 - For part B to be completed, all three functions must be implemented in a *recursive* manner and they must pass testing with the provided tester.
 
-| Criteria       | Poor - 0 mark                | Fair - 1 marks                             | Good - 2 marks      |
-| -------------- | ---------------------------- | ------------------------------------------ | ------------------- |
-| Lab Completion | All parts incomplete/missing | (part A) or (part B) is incomplete/missing | All parts completed |
+| Criteria       | Poor - 0 mark                    | Fair - 1 marks                             | Good - 2 marks      |
+| -------------- | -------------------------------- | ------------------------------------------ | ------------------- |
+| Lab Completion | All parts are incomplete/missing | (part A) or (part B) is incomplete/missing | All parts completed |

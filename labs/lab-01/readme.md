@@ -165,11 +165,6 @@ Place all your work for this lab into the folder `lab-01` in your GitHub reposit
 
 ## Lab Rubric:
 
-| Criteria       | Poor - 0 mark       | Fair - 1 mark  | Good - 2 marks|
-|----------------|---------------------|----------------|---------------|
-| Lab Completion | No part is complete | One part is complete, but the other one is missing or is lacking key steps. | Both parts are complete. |
-
-
-
-
-
+| Criteria       | Poor - 0 mark                    | Fair - 1 marks                             | Good - 2 marks      |
+| -------------- | -------------------------------- | ------------------------------------------ | ------------------- |
+| Lab Completion | All parts are incomplete/missing | (part A) or (part B) is incomplete/missing | All parts completed |
