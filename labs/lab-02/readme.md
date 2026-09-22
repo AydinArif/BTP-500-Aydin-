@@ -101,7 +101,7 @@ def three(mylist, key):
 Write the **recursive** function to to calculate the factorial of a positive integer. This function is passed a positive integer as parameter and returns its factorial $n!$.
 
 $$
-n! = n \times (n-1) \times (n - 2) \times (n - 3) \times   \cdots   \times 3 \times 2 \ times 1
+n! = n \times (n-1) \times (n - 2) \times (n - 3) \times   \cdots   \times 3 \times 2 \times 1
 $$
 
 By definition, $0! = 1$.
