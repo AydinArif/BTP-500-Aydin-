@@ -17,3 +17,6 @@ def sum_to_goal(numbers_list, goal):
 2. My guess for this functions time complexity was O(n<sup>2</sup>). After writing the function, my first instinct was just to picture what the function has to do. It finds a pair, every number basically needs to be checked against every other number in the list.This was a case of nested loops, so I figured it'd end up being two loops, and the time complexity of a function with nested loops are normally O(n<sup>2</sup>).
 
 3. Yes, my friend's solution was similar to mine and the time complexity I calculated from his function was the same as mine which is O(n<sup>2</sup>)
+
+checking LaTex
+$E = mc^2$
