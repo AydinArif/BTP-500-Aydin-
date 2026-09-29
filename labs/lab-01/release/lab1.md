@@ -52,7 +52,7 @@ Analysis:
 ```text
 T(n) = T(n-1) + T(n-2) + c
 Recursive,
-from here we conclude O(2<sup>n</sup>)
+from here we conclude O(n²)
 ```
 
    - No, I had thought my answer as O(n) and someone my team members got O(n²) but I didn't. The complexity was really O(2<sup>n</sup>)
