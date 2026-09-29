@@ -26,14 +26,13 @@ def sum_to_goal(numbers_list, goal):
  
     return None
 ```
-Analysis:\n
-T(n) &= 2 + 1 + 2n + 4 \cdot \left[\frac{n(n - 1)}{2}\right] + 1 \\
-&= 4 + 2n + 2n(n - 1) \\
-&= 4 + 2n + 2n^2 - 2n \\
-&= 2n^2 + 4
-\end{aligned}
-$$
-
+```text
+Analysis:
+T(n) = 2 + 1 + 2n + 4 · [n(n - 1)/2] + 1
+     = 4 + 2n + 2n(n - 1)
+     = 4 + 2n + 2n^2 - 2n
+     = 2n^2 + 4
+```
    - I would basically time the function on lists of increasing size, doubling the size each run, using a goal value that guarantees no match (so it always hits the worst case). If it's really O(n²), runtime should roughly quadruple each time the size doubles.
    - Answers in `sum_to_goal.py` and `sum_to_goal_tester.py`
 
