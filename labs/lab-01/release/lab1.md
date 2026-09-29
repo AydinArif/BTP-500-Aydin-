@@ -108,3 +108,10 @@ def function3(list):
 T(n) = 2 + 2 + 3(n-1) + 13·[n(n-1)/2] = (13/2)n² − (7/2)n + 1 
 ∴ O(n²)
 ```
+## Team Members
+
+1. Aydin Arif
+2. Eren Kilinc
+3. Thuong Tuyen Tran
+
+Sadly I do not remember our group number.
