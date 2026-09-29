@@ -26,9 +26,7 @@ def sum_to_goal(numbers_list, goal):
  
     return None
 ```
-Analysis:
-$$
-\begin{aligned}
+Analysis:\n
 T(n) &= 2 + 1 + 2n + 4 \cdot \left[\frac{n(n - 1)}{2}\right] + 1 \\
 &= 4 + 2n + 2n(n - 1) \\
 &= 4 + 2n + 2n^2 - 2n \\
