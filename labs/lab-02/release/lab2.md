@@ -5,27 +5,29 @@
 ### Group members
 
 List the members of your group member below:
-- FirstName LastName (e.g., Samuel Vimes)
-- ...
+- Aydin Arif
+- Eren Kilinc
+- The Duy Vu
+- Rohith Haridas
 
+**1. What they do:** Each one takes a list and a key and returns how many pairs of items add up to the key. For `[1,2,3,4,5]` and key 6 it returns 2, from (1,5) and (2,4).
 
-1. What do the functions do?
+**2. Ranking (gut feeling):** three, two, one. `one` has nested loops, `three` is just dictionary lookups.
 
+**3. Timing (n=1000):** one = 0.0233s, two = 0.0002s, three = 0.00013s. Ranking matched. The surprise was how much slower `one` is.
 
+**4. Analysis:**
+- `one`: n(n-1)/2 comparisons, so O(n^2).
+- `two`: sort is O(n log n), the loop is O(n), so O(n log n).
+- `three`: n inserts and n lookups at O(1) each, so O(n).
 
-2. **WITHOUT DOING AN ANALYSIS** (so by gut feeling alone), rank your 3 functions individually... does your group's rankings match?
+**5. Increasing data:**
 
+| n | one | two | three |
+|---|---|---|---|
+| 1000 | 0.0233 | 0.00020 | 0.00013 |
+| 2000 | 0.0919 | 0.00044 | 0.00029 |
+| 3000 | 0.2056 | 0.00064 | 0.00053 |
+| 4000 | 0.3676 | 0.00093 | 0.00068 |
 
-
-3. Run `lab2_timing.py`.  Does the timing validate your ranking?  Any surprises?
-
-
-
-4. Analyze at least one of the 3 functions ( `one()`, `two()`, or `three()` ). Each team member should analyse a different function.
-
-
-
-5. Run `lab2_timing.py` with increasing values of the amount of data (increase by 1000 each time).  Is there a pattern? (Note: ensure that you are using the same "machine" as you change the data size.  Ideally a local computer to avoid inconsistencies).  Does the timing reflect what you expect based on your analysis? Draw a plot in Excel that shows how the execution time increases with each input size for each function.
-
-
-
+Doubling n makes `one` about 4 times slower, which fits O(n^2). The other two grow close to linearly. This matches my analysis.
